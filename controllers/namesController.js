@@ -8,7 +8,7 @@ controller.get("/capitalizeName/:name", (request, response) => {
         const capitalizedName = capitalizeFirstLetter(name);
         response.send(capitalizedName);
     } catch (error) {
-        response.send("Can't finde the name")
+        response.send("Can't find the name")
     }
 })
 

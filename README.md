@@ -8,7 +8,7 @@
 // create server.js ==> import app.js
     // app.listen()
 
-// add <<"start": "node server.js",>> in package.json 
+// add "scripts": {"start": "node server.js",} in package.json 
     // npm start
 
 // create .gitignore 
@@ -19,5 +19,18 @@
     // to check which files are beening tracked
 
 // npm install -D nodemon
-    // add <<"dev": "nodemon server.js",>> in package.json 
+    // add "scripts": {"dev": "nodemon server.js",} in package.json 
         // npm run dev
+
+
+
+// Utils
+    // StringUtils.test.js
+        // import repeatNTimesWithSpace
+        // npm install -D jest
+    //edit "scripts": {"test": "jest} in package.json 
+
+// controllers
+    // create __test__ folder
+        // studentsController.test.js
+        // npm install -D supertest
